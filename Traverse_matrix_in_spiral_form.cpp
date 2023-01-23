@@ -6,7 +6,7 @@ class Solution
     //Function to return a list of integers denoting spiral traversal of matrix.
     vector<int> spirallyTraverse(vector<vector<int> > m, int r, int c) 
     {   
-        int top=0,bottom=r-1,left=0,right=c-1,dir=0,maxi=max(r,c);
+        int top=0,bottom=r-1,left=0,right=c-1,dir=0;
         vector<int>v;
         while(top<=bottom && left<=right){
             if(dir==0){
